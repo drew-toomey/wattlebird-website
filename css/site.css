@@ -121,3 +121,11 @@ footer a:hover{text-decoration:underline}
   footer{flex-direction:column;text-align:center}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+.follow{margin:30px 0 10px;font-size:18px;opacity:.9}
+.socials{display:flex;gap:12px;justify-content:center;align-items:center}
+.socials a{display:inline-flex;width:40px;height:40px;border-radius:50%;align-items:center;justify-content:center;color:var(--cream);border:2px solid currentColor;transition:transform .15s}
+.socials a:hover{transform:translateY(-2px)}
+.socials svg{width:20px;height:20px}
+.socials.big a{width:54px;height:54px;border-width:3px}
+.socials.big svg{width:26px;height:26px}
