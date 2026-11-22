@@ -133,3 +133,5 @@ footer a:hover{text-decoration:underline}
 .game-card .frame.capsule{aspect-ratio:1232/706}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 @media (min-width:1001px){.hero .art{width:min(1240px,70vw);right:-3vw;--mx:linear-gradient(90deg,transparent 0,#000 28%)}}
+.game-card .info .playtest{margin:0 0 18px;font-size:clamp(16px,1.3vw,19px)}
+.game-card .info .playtest b{font-family:FrB;font-weight:normal}
