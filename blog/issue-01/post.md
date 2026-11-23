@@ -52,10 +52,6 @@ A good example is the shelves. Instead of buying more shelves, you can simply st
 ![A shelf in build mode with yellow handles for stretching it longer and taller.](4-stretch-shelf.jpg)
 *Grab the yellow handles and stretch. The comics fill the new space.*
 
-## A quick word on the art
-
-I have one standing rule for the studio: no AI art. The shop, the fixtures and every comic cover are built by code, in my own art style. The customers start from Synty character models I own, reskinned by code to match the rest of the game. They still need plenty of polishing, especially the hair, and I'll keep chipping away at it.
-
 ## Where it's heading
 
 Cosy games are meant to be low-stress, with no failing. In Comic Corner, you'll watch your tiny store grow with new comics, merch, fixtures and displays. You'll be able to make it the store of your dreams, right down to the floors, the walls, the signage and the decorations.
