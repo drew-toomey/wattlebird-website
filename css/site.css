@@ -183,3 +183,41 @@ nav.top .brand img{height:52px;width:52px}
 /* top menu: comic caps like the game's title type (Drew picked A, 23 Nov) */
 nav.top .links a{font-family:Bangers;letter-spacing:.06em;text-transform:uppercase;font-size:1.3em;opacity:1;text-shadow:2px 2px 0 #05070f}
 nav.top .links a:hover{color:var(--yel);text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:5px}
+
+/* ===== Dev blog (Drew OK 23 Nov). Pages are built by tools/build_blog.py ===== */
+.blogsec{border-top:4px solid var(--ink)}
+.sec-head{display:flex;justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap}
+.more,.rss{font-family:Bangers;letter-spacing:.05em;font-size:24px;color:var(--ink);text-decoration:none;border-bottom:3px solid var(--yel)}
+.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:26px}
+.post-card{display:block;background:var(--paper);border:3px solid var(--ink);box-shadow:5px 5px 0 var(--ink);text-decoration:none;color:var(--ink);transition:transform .12s}
+.post-card:nth-child(2){transform:rotate(.6deg)}.post-card:nth-child(3){transform:rotate(-.5deg)}
+.post-card:hover{transform:translate(-2px,-2px)}
+.pc-img{position:relative;aspect-ratio:16/9;overflow:hidden;border-bottom:3px solid var(--ink)}
+.pc-img img{width:100%;height:100%;object-fit:cover}
+.issue{position:absolute;top:10px;left:10px;background:var(--yel);border:2.5px solid var(--ink);font-family:Bangers;font-size:20px;letter-spacing:.05em;padding:2px 10px;transform:rotate(-3deg);box-shadow:2px 2px 0 var(--ink)}
+.pc-t{padding:14px 18px 18px}.pc-t h3{font-size:30px;margin:0 0 4px;color:var(--ink)}.pc-t p{font-size:16px;color:#6a6254}
+/* blog pages */
+.blogpage{min-height:0;padding:0 var(--pad) 80px}
+.blogpage h2{color:var(--yel);text-shadow:3px 3px 0 #05070f;-webkit-text-stroke:1.5px #05070f}
+.blogpage .rss{color:var(--cream)}
+.page-top{padding-top:130px}
+.post{max-width:780px;margin:0 auto;background:var(--paper);border:3px solid var(--ink);box-shadow:8px 8px 0 var(--ink);padding:clamp(24px,4vw,56px);color:var(--ink)}
+.post h1{font-family:Bangers;font-weight:400;font-size:clamp(44px,5vw,68px);line-height:1;color:var(--red);-webkit-text-stroke:1.5px var(--ink);text-shadow:3px 3px 0 var(--ink);margin:16px 0 10px}
+.post .meta{font-size:17px;color:#6a6254;margin-bottom:24px}
+.post p{font-size:20px;line-height:1.6;margin:0 0 18px;font-weight:500}
+.post figure{margin:26px -10px}.post figure img{border:3px solid var(--ink);box-shadow:5px 5px 0 var(--ink)}
+.post figcaption{font-size:15px;color:#6a6254;margin-top:10px}
+.post .issue{position:static;display:inline-block}
+.draft{background:#fff3c4;border-left:5px solid var(--yel);padding:2px 8px;font-style:italic}
+.share{display:flex;gap:12px;align-items:center;flex-wrap:wrap;border-top:3px dashed #1c234040;margin-top:30px;padding-top:20px;font-family:Bangers;font-size:22px;letter-spacing:.04em}
+.share a{border:2.5px solid var(--ink);padding:4px 12px;text-decoration:none;color:var(--ink);box-shadow:3px 3px 0 var(--ink);background:var(--cream)}
+.post-cta{max-width:780px;margin:34px auto 0;background:var(--red);border:3px solid var(--ink);box-shadow:8px 8px 0 #05070f;padding:22px 28px;display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap;color:var(--paper)}
+.post-cta b{font-family:Bangers;font-weight:400;font-size:32px;letter-spacing:.03em;color:var(--yel);text-shadow:2px 2px 0 var(--ink)}
+.navpost{max-width:780px;margin:24px auto 0;display:flex;justify-content:space-between;font-family:Bangers;font-size:22px;letter-spacing:.04em}
+.navpost a{color:var(--yel);text-decoration:none}
+@media (max-width:900px){.posts{grid-template-columns:1fr}}
+.hero .post-card{box-shadow:6px 6px 0 #05070f}.pc-t .sum{color:var(--ink);font-size:17px;margin-top:6px}
+.post p{text-shadow:none}.hero .post{box-shadow:8px 8px 0 #05070f}
+.post h2{font-family:Bangers;font-weight:400;font-size:38px;color:var(--ink);-webkit-text-stroke:0;text-shadow:none;margin:30px 0 10px}
+.post ul{font-size:20px;line-height:1.6;margin:0 0 18px 24px}.post a{color:var(--red)}
+.post figure img{width:100%}

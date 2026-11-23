@@ -9,3 +9,10 @@ function wire(attr, url) {
 wire("data-steam", STEAM_URL);
 wire("data-discord", DISCORD_URL);
 document.querySelectorAll("[data-year]").forEach(function (s) { s.textContent = new Date().getFullYear(); });
+// Blog "Copy link" buttons
+document.querySelectorAll("[data-copy]").forEach(function (a) {
+  a.addEventListener("click", function (e) {
+    e.preventDefault();
+    try { navigator.clipboard.writeText(a.getAttribute("data-copy")); a.textContent = "Copied!"; } catch (err) { prompt("Copy this link", a.getAttribute("data-copy")); }
+  });
+});
