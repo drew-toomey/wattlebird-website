@@ -177,3 +177,6 @@ nav.top .brand{font-size:1.35em;letter-spacing:.06em}
 /* on navy, the ink shadow needs to be darker than the page to show */
 .hero .btn,#contact .btn{box-shadow:4px 4px 0 #05070f}
 .hero .btn:hover,#contact .btn:hover{box-shadow:6px 6px 0 #05070f}
+/* logo tile: the cream mark as printed, ink edge + hard shadow, so it stands off the navy (Drew, 23 Nov) */
+nav.top .brand img,footer img{filter:none;border:2.5px solid var(--ink);border-radius:3px;box-shadow:3px 3px 0 #05070f;background:var(--cream);transform:rotate(-3deg)}
+nav.top .brand img{height:52px;width:52px}
