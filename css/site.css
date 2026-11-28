@@ -251,3 +251,8 @@ nav.top .links a:hover{color:var(--yel);text-decoration:underline;text-decoratio
 .press .drew-quote{margin-top:14px;border-left:5px solid var(--yel);padding-left:14px}
 .press .drew-quote p{font-style:italic}
 .press .drew-quote cite{display:block;margin-top:8px;font-size:15px;font-style:normal;opacity:.8}
+.press .dl-grid.four{grid-template-columns:repeat(4,1fr)}
+.press .dl .frame.tall{aspect-ratio:2/3}
+.press .dl small a{color:inherit}
+@media (max-width:860px){.press .dl-grid.four{grid-template-columns:1fr 1fr}}
+.press .dl .chk img{width:100%;height:100%;object-fit:contain;min-height:0}
