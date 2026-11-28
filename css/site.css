@@ -221,3 +221,38 @@ nav.top .links a:hover{color:var(--yel);text-decoration:underline;text-decoratio
 .post h2{font-family:Bangers;font-weight:400;font-size:38px;color:var(--ink);-webkit-text-stroke:0;text-shadow:none;margin:30px 0 10px}
 .post ul{font-size:20px;line-height:1.6;margin:0 0 18px 24px}.post a{color:var(--red)}
 .post figure img{width:100%}
+
+/* Press kit page (28 Nov 2026) */
+.press h3.sub{margin-top:48px;color:var(--yel)}
+.ok-box{background:var(--yel);color:var(--ink);border:4px solid #05070f;border-radius:18px;box-shadow:8px 8px 0 #05070f;padding:22px 26px;margin:28px 0 36px;max-width:900px}
+.ok-box h3{margin-bottom:6px}
+.ok-box p{font-size:clamp(16px,1.5vw,20px);margin-top:6px}
+.press-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:28px}
+.panel{background:var(--cream);color:var(--ink);border:4px solid #05070f;border-radius:18px;padding:24px 26px;box-shadow:8px 8px 0 #05070f}
+.panel p{margin-top:10px;font-size:17px}
+.panel ul{margin:12px 0 0 20px;font-size:17px}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;font-size:17px}
+.facts dt{font-family:Bangers;letter-spacing:.5px}
+.dl-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:16px}
+.dl{display:flex;flex-direction:column;gap:6px;text-decoration:none}
+.dl b{font-family:Bangers;font-size:22px;letter-spacing:.5px;margin-top:6px}
+.dl small{opacity:.8}
+.dl .frame,.dl .chk{aspect-ratio:16/10;display:grid;place-items:center;border:4px solid #05070f;border-radius:14px;overflow:hidden}
+.dl .chk{background:#2f2853;padding:14px}
+.dl .chk.light{background:var(--cream)}
+.dl .chk img{max-height:100%;object-fit:contain}
+.dl:hover b{text-decoration:underline}
+.dl.soon{opacity:.6}
+.soon-line{font-size:18px;opacity:.85}
+.swatches{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.swatches span{background:var(--c);color:var(--t,#fff);border:2px solid #05070f;border-radius:10px;padding:8px 10px;font-size:13px;line-height:1.25;min-width:92px}
+@media (max-width:860px){.press-grid,.dl-grid{grid-template-columns:1fr}}
+.press .panel p,.press .panel li,.press .ok-box p,.press .facts{text-shadow:none}
+.press .drew-quote{margin-top:14px;border-left:5px solid var(--yel);padding-left:14px}
+.press .drew-quote p{font-style:italic}
+.press .drew-quote cite{display:block;margin-top:8px;font-size:15px;font-style:normal;opacity:.8}
+.press .dl-grid.four{grid-template-columns:repeat(4,1fr)}
+.press .dl .frame.tall{aspect-ratio:2/3}
+.press .dl small a{color:inherit}
+@media (max-width:860px){.press .dl-grid.four{grid-template-columns:1fr 1fr}}
+.press .dl .chk img{width:100%;height:100%;object-fit:contain;min-height:0}
