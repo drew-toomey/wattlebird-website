@@ -248,3 +248,6 @@ nav.top .links a:hover{color:var(--yel);text-decoration:underline;text-decoratio
 .swatches span{background:var(--c);color:var(--t,#fff);border:2px solid #05070f;border-radius:10px;padding:8px 10px;font-size:13px;line-height:1.25;min-width:92px}
 @media (max-width:860px){.press-grid,.dl-grid{grid-template-columns:1fr}}
 .press .panel p,.press .panel li,.press .ok-box p,.press .facts{text-shadow:none}
+.press .drew-quote{margin-top:14px;border-left:5px solid var(--yel);padding-left:14px}
+.press .drew-quote p{font-style:italic}
+.press .drew-quote cite{display:block;margin-top:8px;font-size:15px;font-style:normal;opacity:.8}
